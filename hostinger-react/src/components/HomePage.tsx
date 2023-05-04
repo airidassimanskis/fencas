@@ -1,4 +1,3 @@
-import ContactsUpper from "./ContactsUpper"
 import Carousel from "./Carousel"
 import LandingHeader from "./LandingHeader"
 
@@ -12,7 +11,6 @@ const HomePage = () => {
 
     return (
         <div>
-            <ContactsUpper />
             <LandingHeader/>
             <div className="container mx-auto">
                 <Carousel images={carouselImages}/>
