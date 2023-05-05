@@ -17,7 +17,7 @@ export default function Footer() {
                 <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                     <li>
                         <Typography color="blue-gray" className="font-normal">
-                            <div className="flex leading-4">
+                            <span className="flex leading-4">
                                 <AtSymbolIcon className="h-5 w-6 text-blue-700" />
                                 <a
                                     className="hover:text-blue-700"
@@ -25,12 +25,12 @@ export default function Footer() {
                                 >
                                     info@fencas.lt
                                 </a>
-                            </div>
+                            </span>
                         </Typography>
                     </li>
                     <li>
                         <Typography color="blue-gray" className="font-normal">
-                            <div className="flex leading-4">
+                            <span className="flex leading-4">
                                 <PhoneIcon className="h-5 w-6 text-blue-700" />
                                 <a
                                     className="hover:text-blue-700"
@@ -38,12 +38,12 @@ export default function Footer() {
                                 >
                                     +37060813610
                                 </a>
-                            </div>
+                            </span>
                         </Typography>
                     </li>
                     <li>
                         <Typography color="blue-gray" className="font-normal">
-                            <div className="flex leading-4">
+                            <span className="flex leading-4">
                                 <PhoneIcon className="h-5 w-6 text-blue-700" />
                                 <a
                                     className="hover:text-blue-700"
@@ -51,7 +51,7 @@ export default function Footer() {
                                 >
                                     +37063093384
                                 </a>
-                            </div>
+                            </span>
                         </Typography>
                     </li>
                 </ul>

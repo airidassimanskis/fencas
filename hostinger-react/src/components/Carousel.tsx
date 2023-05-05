@@ -32,7 +32,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             data-te-carousel-slide
         >
             {/* Carousel items */}
-            <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+            <div className="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-['']">
                 {/* Carousel items */}
                 {images.map((image, index) => (
                     <div

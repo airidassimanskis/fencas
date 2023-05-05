@@ -11,24 +11,24 @@ import ContactsUpper from "./components/ContactsUpper"
 function App() {
     const galleryItems = [
         {
-            navigation: "/metalinesarkazka",
+            category: "Polisadines",
             imgUrl: "https://dummyimage.com/1920x1080/000/fff",
-            title: "title",
+            title: "polisadines",
         },
         {
-            navigation: "/metalinesarkazka",
+            category: "Polisadines",
             imgUrl: "https://dummyimage.com/1920x1080/000/fff",
-            title: "title",
+            title: "polisadines",
         },
         {
-            navigation: "/metalinesarkazka",
+            category: "Polisadines",
             imgUrl: "https://dummyimage.com/1920x1080/000/fff",
-            title: "title",
+            title: "polisadines",
         },
         {
-            navigation: "/metalinesarkazka",
+            category: "Laser Cut",
             imgUrl: "https://dummyimage.com/1920x1080/000/fff",
-            title: "title",
+            title: "lasercut",
         },
     ]
 

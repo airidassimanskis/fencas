@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 
 const navigation = [
     { name: "Pagrindinis", href: "/", current: false },
-    { name: "Skaiciuoklė", href: "/skaiciuokle", current: false },
+    { name: "DUK", href: "/#DUK", current: false },
     { name: "Galerija", href: "/galerija", current: false },
     { name: "Kontaktai", href: "/kontaktai", current: false },
 ]

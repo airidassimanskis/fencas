@@ -1,4 +1,4 @@
-export default function LandingHeader() {
+export default function HeroSection() {
     return (
         <div className="flex bg-white" style={{ height: "600px" }}>
             <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
@@ -22,7 +22,7 @@ export default function LandingHeader() {
                 <img
                     src="https://dummyimage.com/1920x1080/000/fff"
                     alt="fencas.lt"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-cover rounded-l-lg"
                 />
             </div>
         </div>
