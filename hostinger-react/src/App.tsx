@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage"
 import NotFound from "./components/NotFound"
 import GalleryPage from "./components/GalleryPage"
 import ContactsUpper from "./components/ContactsUpper"
+// import AdminPanel from "./components/AdminPanel"
 
 function App() {
     const galleryItems = [
@@ -38,11 +39,9 @@ function App() {
                 <Navbar />
 
                 <Routes>
+                    {/* <Route path="/admin" element={<AdminPanel/>} /> */}
                     <Route path="/" element={<HomePage />} />
-                    <Route
-                        path="/galerija"
-                        element={<GalleryPage items={galleryItems} />}
-                    />
+                    <Route path="/galerija"element={<GalleryPage items={galleryItems}/>}/>
                     <Route path="*" element={<NotFound />} />
                 </Routes>
 
