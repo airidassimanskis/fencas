@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 interface CarouselProps {
     images: string[]
@@ -7,6 +7,7 @@ interface CarouselProps {
 const Carousel: React.FC<CarouselProps> = ({ images }) => {
     const [activeIndex, setActiveIndex] = useState(0)
 
+
     const handlePrev = () => {
         setActiveIndex(activeIndex === 0 ? images.length - 1 : activeIndex - 1)
     }
@@ -14,6 +15,14 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
     const handleNext = () => {
         setActiveIndex(activeIndex === images.length - 1 ? 0 : activeIndex + 1)
     }
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            handleNext()
+        }, 3000)
+
+        return () => clearInterval(interval)
+    }, [activeIndex])
 
     return (
         <div
@@ -28,7 +37,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                 {images.map((image, index) => (
                     <div
                         key={index}
-                        className={`relative float-left ${
+                        className={`relative float-left w-full ${
                             index === activeIndex ? "" : "-mr-[100%] hidden"
                         } w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none`}
                         data-te-carousel-item

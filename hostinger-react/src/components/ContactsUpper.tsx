@@ -38,12 +38,14 @@ const ContactsUpper = () => {
                         </a>
                     </div>
                 </li>
-                <img
-                    className="hidden md:block h-24 w-auto"
-                    src="./fencas_full.png"
-                    alt="Fencas"
-                    draggable="false"
-                />
+                <a href="/" className="cursor-pointer">
+                    <img
+                        className="hidden md:block h-24 w-auto"
+                        src="./fencas_full.png"
+                        alt="Fencas"
+                        draggable="false"
+                    />
+                </a>
             </div>
         </div>
     )

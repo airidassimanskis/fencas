@@ -63,18 +63,22 @@ export default function Navbar() {
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
-                                    <img
-                                        className="block h-14 w-auto md:hidden"
-                                        src="./fencas_full.png"
-                                        alt="Fencas"
-                                        draggable="false"
-                                    />
-                                    <img
-                                        className="hidden h-14 w-auto md:block"
-                                        src="./fencas.png"
-                                        alt="Fencas"
-                                        draggable="false"
-                                    />
+                                    <a href="/" className="cursor-pointer">
+                                        <img
+                                            className="block h-14 w-auto md:hidden"
+                                            src="./fencas_full.png"
+                                            alt="Fencas"
+                                            draggable="false"
+                                        />
+                                    </a>
+                                    <a href="/" className="cursor-pointer">
+                                        <img
+                                            className="hidden h-14 w-auto md:block"
+                                            src="./fencas.png"
+                                            alt="Fencas"
+                                            draggable="false"
+                                        />
+                                    </a>
                                 </div>
                                 <div className="hidden sm:ml-6 sm:block m-auto">
                                     <div className="flex space-x-4">

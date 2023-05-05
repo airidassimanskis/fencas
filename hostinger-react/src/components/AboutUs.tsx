@@ -1,12 +1,14 @@
-export default function LandingHeader() {
-    return (
-        <div className="flex bg-white" style={{ height: "600px" }}>
+
+const AboutUs = () => {
+  return (
+    <div>
             <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
                 <div>
+                    
                     <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">
                         {" "}
                         <span className="text-indigo-600">
-                            Tvoros. Vartai. Privatumas.
+                            Apie mus
                         </span>
                     </h2>
                     <p className="mt-2 text-sm text-gray-500 md:text-base">
@@ -18,13 +20,8 @@ export default function LandingHeader() {
                     </p>
                 </div>
             </div>
-            <div className="hidden lg:block lg:w-1/2">
-                <img
-                    src="https://dummyimage.com/1920x1080/000/fff"
-                    alt="fencas.lt"
-                    className="h-full w-full object-cover"
-                />
-            </div>
-        </div>
-    )
+    </div>
+  )
 }
+
+export default AboutUs

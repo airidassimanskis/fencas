@@ -1,3 +1,4 @@
+import AboutUs from "./AboutUs"
 import Carousel from "./Carousel"
 import LandingHeader from "./LandingHeader"
 
@@ -10,14 +11,12 @@ const HomePage = () => {
     ]
 
     return (
-        <div>
-            <LandingHeader/>
-            <div className="container mx-auto">
-                <Carousel images={carouselImages}/>
+        <div className="mt-10">
+            <LandingHeader />
+            <div className="container mx-auto mt-10 mb-10">
+                <Carousel images={carouselImages} />
             </div>
-            1. sufixinti kad footeris butu sticky i bottom 2. prideti icons
-            footeryje ir ContactsUpper 3. pagrazinti ContactsUpper 4. image
-            carousel 5. about us vidury kazkur home page
+            <AboutUs />
         </div>
     )
 }

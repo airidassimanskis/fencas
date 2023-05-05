@@ -9,23 +9,48 @@ import GalleryPage from "./components/GalleryPage"
 import ContactsUpper from "./components/ContactsUpper"
 
 function App() {
+    const galleryItems = [
+        {
+            navigation: "/metalinesarkazka",
+            imgUrl: "https://dummyimage.com/1920x1080/000/fff",
+            title: "title",
+        },
+        {
+            navigation: "/metalinesarkazka",
+            imgUrl: "https://dummyimage.com/1920x1080/000/fff",
+            title: "title",
+        },
+        {
+            navigation: "/metalinesarkazka",
+            imgUrl: "https://dummyimage.com/1920x1080/000/fff",
+            title: "title",
+        },
+        {
+            navigation: "/metalinesarkazka",
+            imgUrl: "https://dummyimage.com/1920x1080/000/fff",
+            title: "title",
+        },
+    ]
+
     return (
         <Router>
-        <div className="App font-sans">
-            <ContactsUpper/>
-            <Navbar/>
+            <div className="App font-sans">
+                <ContactsUpper />
+                <Navbar />
 
-            <Routes>
-                <Route path="/" element={<HomePage/>} />
-                <Route path="/kontaktai" element={<Contacts/>} />
-                <Route path="/galerija" element={<GalleryPage/>} />
-                <Route path="*" element={<NotFound/>} />
-            </Routes>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/kontaktai" element={<Contacts />} />
+                    <Route
+                        path="/galerija"
+                        element={<GalleryPage items={galleryItems} />}
+                    />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
 
-            <Footer/>
-        </div>
-    </Router>
-
+                <Footer />
+            </div>
+        </Router>
     )
 }
 

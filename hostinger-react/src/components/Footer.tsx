@@ -6,17 +6,19 @@ export default function Footer() {
     return (
         <footer className="w-full bg-white p-8">
             <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
-                <img
-                    src="./fencas.png"
-                    alt="logo-ct"
-                    className="w-10"
-                    draggable="false"
-                />
+                <a href="/" className="cursor-pointer">
+                    <img
+                        src="./fencas.png"
+                        alt="logo-ct"
+                        className="w-10"
+                        draggable="false"
+                    />
+                </a>
                 <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                     <li>
                         <Typography color="blue-gray" className="font-normal">
                             <div className="flex leading-4">
-                                <AtSymbolIcon className="h-5 w-6 text-black-500" />
+                                <AtSymbolIcon className="h-5 w-6 text-blue-700" />
                                 <a
                                     className="hover:text-blue-700"
                                     href="mailto:info@fencas.lt"
@@ -29,7 +31,7 @@ export default function Footer() {
                     <li>
                         <Typography color="blue-gray" className="font-normal">
                             <div className="flex leading-4">
-                                <PhoneIcon className="h-5 w-6 text-black-500" />
+                                <PhoneIcon className="h-5 w-6 text-blue-700" />
                                 <a
                                     className="hover:text-blue-700"
                                     href="tel:+37060813610"
@@ -42,7 +44,7 @@ export default function Footer() {
                     <li>
                         <Typography color="blue-gray" className="font-normal">
                             <div className="flex leading-4">
-                                <PhoneIcon className="h-5 w-6 text-black-500" />
+                                <PhoneIcon className="h-5 w-6 text-blue-700" />
                                 <a
                                     className="hover:text-blue-700"
                                     href="tel:+37063093384"
