@@ -2,6 +2,8 @@ import AboutUs from "./AboutUs"
 import Carousel from "./Carousel"
 import HeroSection from "./HeroSection"
 import DUK from "./DUK"
+import EmailUs from "./EmailUs"
+
 
 const HomePage = () => {
     const carouselImages = [
@@ -44,6 +46,7 @@ const HomePage = () => {
             <div className="mt-10 mb-10">
                 <DUK items={DUKitems} />
             </div>
+            <EmailUs/>
         </div>
     )
 }

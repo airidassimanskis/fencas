@@ -6,7 +6,7 @@ const navigation = [
     { name: "Pagrindinis", href: "/", current: false },
     { name: "DUK", href: "/#DUK", current: false },
     { name: "Galerija", href: "/galerija", current: false },
-    { name: "Kontaktai", href: "/kontaktai", current: false },
+    { name: "Susisiekite su mumis", href: "/#emailus", current: false },
 ]
 
 function classNames(...classes) {
