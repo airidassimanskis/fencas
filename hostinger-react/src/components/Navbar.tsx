@@ -28,6 +28,14 @@ export default function Navbar() {
         }
     }, [])
 
+    useEffect(() => {
+        if (sticky) {
+            window.document.body.style.paddingTop = "64px"
+        } else {
+            window.document.body.style.paddingTop = "0"
+        }
+    }, [sticky])
+
     return (
         <Disclosure
             as="nav"
