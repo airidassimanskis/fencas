@@ -15,24 +15,24 @@ const HomePage = () => {
 
     const DUKitems = [
         {
-            question: "Koks jusu darbo laikas?",
-            answer: "nuo 3-0.",
+            question: "Ar yra galimybė pasitikrinti tvorų ir vartų gaminius iš anksto, prieš jų pirkimą?",
+            answer: "Taip, paaiskinti kaip jie gali patikrinti ar ten kazka.",
         },
         {
             question: "Ar dirbate tik Kaune?",
-            answer: "Ne, mes dirbame ten ir ten.",
+            answer: "Mūsų paslaugos yra pasiekiamos visoje Kauno apskrityje.",
         },
         {
-            question: "Ar dazote tvoras?",
-            answer: "Ne, mes nedazome tvoru.",
+            question: "qqqqqqqqqqqqqqqqqqq?",
+            answer: "aaaaaaaaaaaaaaaaaaaaaaa.",
         },
         {
-            question: "Kaip susisiekti su jumis?",
-            answer: "Galite parasyti mums email arba paskambinti numeriais +370kazkaskazkas.",
+            question: "qqqqqqqqqqqqqqqqqqq?",
+            answer: "aaaaaaaaaaaaaaaaaa.",
         },
         {
-            question: "Kiek laiko uztrunka kazka padaryti?",
-            answer: "Ta ir ta uztrunka tiek ir tiek.",
+            question: "qqqqqq?",
+            answer: "aaaaaaaaaaaa.",
         },
     ]
 
