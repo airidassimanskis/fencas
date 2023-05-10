@@ -4,8 +4,8 @@ import { AtSymbolIcon } from "@heroicons/react/24/solid"
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-white p-8">
-            <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
+        <footer className="w-full bg-gray-800 p-8">
+            <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-gray-800 text-center md:justify-between">
                 <a href="/" className="cursor-pointer">
                     <img
                         src="./fencas.png"
@@ -20,7 +20,7 @@ export default function Footer() {
                             <span className="flex leading-4">
                                 <AtSymbolIcon className="h-5 w-6 text-blue-700" />
                                 <a
-                                    className="hover:text-blue-700"
+                                    className="text-white hover:text-blue-700"
                                     href="mailto:info@fencas.lt"
                                 >
                                     info@fencas.lt
@@ -33,7 +33,7 @@ export default function Footer() {
                             <span className="flex leading-4">
                                 <PhoneIcon className="h-5 w-6 text-blue-700" />
                                 <a
-                                    className="hover:text-blue-700"
+                                    className="text-white hover:text-blue-700"
                                     href="tel:+37060813610"
                                 >
                                     +37060813610
@@ -46,7 +46,7 @@ export default function Footer() {
                             <span className="flex leading-4">
                                 <PhoneIcon className="h-5 w-6 text-blue-700" />
                                 <a
-                                    className="hover:text-blue-700"
+                                    className="text-white hover:text-blue-700"
                                     href="tel:+37063093384"
                                 >
                                     +37063093384
@@ -57,9 +57,11 @@ export default function Footer() {
                 </ul>
             </div>
             <hr className="my-8 border-blue-gray-50" />
-            <Typography color="blue-gray" className="text-center font-normal">
+            <a 
+            href="https://fencas.lt/" 
+            className="text-center font-normal text-white hover:text-blue-700 cursor-pointer">
                 &copy; 2023 fencas.lt
-            </Typography>
+            </a>
         </footer>
     )
 }

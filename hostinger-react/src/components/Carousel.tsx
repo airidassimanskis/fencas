@@ -27,7 +27,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
     return (
         <div
             id="carouselExampleControls"
-            className="relative"
+            className="relative ml-4 mr-4"
             data-te-carousel-init
             data-te-carousel-slide
         >

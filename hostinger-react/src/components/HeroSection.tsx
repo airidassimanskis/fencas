@@ -1,6 +1,6 @@
 export default function HeroSection() {
     return (
-        <div className="flex bg-white" style={{ height: "600px" }}>
+        <div className="flex bg-white">
             <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
                 <div>
                     <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">
@@ -10,11 +10,11 @@ export default function HeroSection() {
                         </span>
                     </h2>
                     <p className="mt-2 text-sm text-gray-500 md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Etiam sed justo quis leo malesuada condimentum. Sed
-                        faucibus, elit eu interdum euismod, libero purus mollis
-                        massa, nec malesuada justo lectus non mauris. Duis porta
-                        lobortis ligula, ut feugiat quam porttitor et.
+                        Aukščiausios kokybės tvoros ir vartai gaminami naudojant
+                        pažangias technologijas ir montuojami patikimai bei
+                        greitai. Mūsų tikslas - užtikrinti didžiausią klientų
+                        saugumą ir patogumą. Pasirinkdami mus, galite būti
+                        tikri, kad Jūsų namai ar verslas bus puikiai apsaugoti.
                     </p>
                 </div>
             </div>
