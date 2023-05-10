@@ -10,7 +10,7 @@ function CarouselComponent() {
 
     return (
         <Carousel
-            height={500}
+            
             animation="slide"
             swipe={false}
             autoPlay={true}
@@ -30,7 +30,7 @@ function Item(props: { item: { url: string } }): JSX.Element {
     return (
         <img
             src={props.item.url}
-            className="object-cover object-cover w-full h-full"
+            className="object-cover object-cover w-full h-72 sm:h-80 md:h-96 lg:h-responsive"
         />
     )
 }
