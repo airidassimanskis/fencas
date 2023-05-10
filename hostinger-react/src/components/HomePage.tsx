@@ -6,12 +6,6 @@ import EmailUs from "./EmailUs"
 
 
 const HomePage = () => {
-    const carouselImages = [
-        "https://dummyimage.com/600x400/000/fff",
-        "https://dummyimage.com/1200x400/000/fff",
-        "https://dummyimage.com/1920x1080/000/fff",
-        "https://dummyimage.com/1200x1080/000/fff",
-    ]
 
     const DUKitems = [
         {
@@ -40,7 +34,7 @@ const HomePage = () => {
         <div className="mt-10">
             <HeroSection />
             <div className="container mx-auto mt-10 mb-10">
-                <Carousel images={carouselImages} />
+                <Carousel/>
             </div>
             <AboutUs />
             <div className="mt-10 mb-10">
