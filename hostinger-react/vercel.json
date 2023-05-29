@@ -1,6 +1,6 @@
 {
     "rewrites":  [
-      {"source": "/galerija", "destination": "/galerija"}
+      {"source": "/(.*)", "destination": "/"}
     ]
   }
   
