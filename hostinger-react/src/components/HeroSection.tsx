@@ -20,7 +20,7 @@ export default function HeroSection() {
             </div>
             <div className="hidden lg:block lg:w-1/2">
                 <img
-                    src="https://dummyimage.com/1920x1080/000/fff"
+                    src="./images/sukos/sukos1.jpg"
                     alt="fencas.lt"
                     className="h-full w-full object-cover rounded-l-lg"
                 />

@@ -2,10 +2,10 @@ import Carousel from "react-material-ui-carousel"
 
 function CarouselComponent() {
     const items = [
-        { url: "https://dummyimage.com/600x400/000/fff" },
-        { url: "https://dummyimage.com/1200x400/000/fff" },
-        { url: "https://dummyimage.com/1920x1080/000/fff" },
-        { url: "https://dummyimage.com/1200x1080/000/fff" },
+        { url: "./images/polisadines/polisadines7.jpg" },
+        { url: "./images/rombas/rombas7.jpg" },
+        { url: "./images/polisadines/polisadines4.jpg" },
+        { url: "./images/polisadines/polisadines5.jpg" },
     ]
 
     return (
@@ -14,7 +14,7 @@ function CarouselComponent() {
             animation="slide"
             swipe={false}
             autoPlay={true}
-            stopAutoPlayOnHover={false}
+            stopAutoPlayOnHover={true}
             duration={500}
             interval={3000}
             className="ml-4 mr-4"
