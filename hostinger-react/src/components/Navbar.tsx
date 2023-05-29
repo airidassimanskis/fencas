@@ -9,7 +9,7 @@ const navigation = [
     { name: "Susisiekite su mumis", href: "/#emailus", current: false },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(" ")
 }
 

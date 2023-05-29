@@ -1,9 +1,5 @@
 import { useState } from "react"
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(" ")
-}
-
 export default function EmailUs() {
     const [title, setTitle] = useState("")
     const [message, setMessage] = useState("")
