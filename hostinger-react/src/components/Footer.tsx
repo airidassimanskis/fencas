@@ -58,7 +58,7 @@ export default function Footer() {
             </div>
             <hr className="my-8 border-blue-gray-50" />
             <a 
-            href="https://fencas.lt/" 
+            href="/" 
             className="text-center font-normal text-white hover:text-blue-700 cursor-pointer">
                 &copy; 2023 fencas.lt
             </a>
