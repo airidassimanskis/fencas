@@ -158,7 +158,7 @@ function App() {
 
     return (
         <Router>
-            <div className="App font-sans">
+            <div className="App font-sans bg-white">
                 <ContactsUpper />
                 <Navbar />
 

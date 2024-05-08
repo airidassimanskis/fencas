@@ -4,9 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 
 const navigation = [
     { name: "Pagrindinis", href: "/", current: false },
-    { name: "DUK", href: "/#DUK", current: false },
     { name: "Galerija", href: "/galerija", current: false },
-    { name: "Susisiekite su mumis", href: "/#emailus", current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -94,6 +92,7 @@ export default function Navbar() {
                                             <a
                                                 key={item.name}
                                                 href={item.href}
+                                                
                                                 className={classNames(
                                                     item.current
                                                         ? "bg-gray-900 text-white"
